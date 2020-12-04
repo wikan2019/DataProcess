@@ -1,6 +1,6 @@
 ##数据处理步骤
 + 1，清空移动硬盘
-+ 2，将雷达（eg 12-01_lidar），环视(12-01_surround)，周视(12-01_arround)，pegsus数据拷贝至移动硬盘
++ 2，将雷达（eg 12-01_lidar_data)，环视(12-01_surround_images)，周视(12-01_arround_images)，pegsus数据(pegasus_images)拷贝至移动硬盘
 + 3, mkdir 2020-12-01 将对应日期的雷达，环视，周视，pegsus数据剪切进去
 + 4，在移动硬盘的最高层 运行脚本 
 	python3 main.py
